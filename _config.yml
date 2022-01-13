@@ -1,6 +1,6 @@
-site: Personal Jekyll Theme
+site: Collin Sinclair
 
-url: 
+url: https://collinsinclair.com
 baseurl: 
 
 collections:
@@ -52,6 +52,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 6
+paginate: 5
 paginate_path: "/blog/page:num/"
   
