@@ -147,7 +147,7 @@
 
 <p>This <em>N-Body Simulation</em> started its life as my final project for CU Boulder’s ASTR 2600: Introduction to Scientific Programming, but back then I didn’t know what I was doing or how to do it, at least as far as useful programs go. So I decided to give that old IPython notebook a facelift and turn it into something others could experience and (hopefully) learn from.</p>
 
-<p>But wait, what <em>is</em> an N-Body simulation? First, it’s worth discussing something called the “N-Body Problem” – a historically difficult problem to solve by hand. Given the current understanding of orbital mechanics (how gravitationally bound objects move in space), finding an analytical (i.e., <strong>not</strong> step-by-step) solution for the motion of a three body gravitational system is incredibly tricky.</p>
+<p>But wait, what <em>is</em> an N-Body simulation? First, it’s worth discussing something called the “N-Body Problem” – a historically difficult problem to solve by hand. Given the current understanding of orbital mechanics (how gravitationally bound objects move in space), finding an analytical (i.e., <strong>not</strong> step-by-step) solution for the motion of even a three body gravitational system is incredibly tricky – let alone dozens of bodies.</p>
 
 <p>The beauty of programming a computer to do this work for us is that we don’t need an analytical solution – we can have the computer run the process step-by-step to show us a “really good” approximation of the motion of the bodies. That is exactly what this program is doing, and that is the essence of an N-Body simulation.</p>
 
@@ -157,13 +157,35 @@
 
 <p>From here – after a few more user customizations – the program begins the simulation, stepping all of the particles forward through time, moment by moment. Specifically, it uses the <a href="https://en.wikipedia.org/wiki/Runge–Kutta_methods">Runge-Kutta method</a>, which is a mathematical method for calculating numbers from one discrete moment of time to another.</p>
 
-<p>This method was suggested and implemented by Brandon Korb<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, in order to conserve as energy as much as possible. This is a major issue with these kinds of simulations: when massive bodies pass very close to one another, the gravitational force (which increases with mass, and as distance gets smaller) grows to effectively infinity. This means that the objects are accelerated incredibly fast and – TO BE FINISHED SON</p>
+<p>This method was suggested and implemented by Brandon Korb<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>, after my initial Euler method algorithm resulted in significant loss of energy. This is a major issue with these kinds of simulations: when massive bodies pass very close to one another, the gravitational force (which increases as the distance between objects decreases) grows to effectively infinity, which means that the objects experience incredibly large accelerations (remember: <em>a = f / m</em>), and in discrete timesteps an object will travel a large distance before the next force is calculated. Once the object moves this large distance from this huge acceleration, it is no longer near enough to the object that caused this slingshot effect to be slowed down by gravity (the force due to gravity <em>decreases</em> as distance increases, and quickly). In this way, these close fly-bys can produce very non-physical results, breaking the conservation of energy.</p>
 
-<p>Read more about the <a href="https://en.wikipedia.org/wiki/N-body_problem">N-Body Problem</a> or <a href="https://en.wikipedia.org/wiki/N-body_simulation">N-Body Simulations</a>.</p>
+<p>So, back to the Runge-Kutta method: this way of iterating over timesteps to calculate forces, velocities, and positions is specifically designed to minimize these crazy effects, but it isn’t perfect. In some of the examples below, you’ll see phenomena that probably wouldn’t happen out there in actual space (also gravitational slingshotting a <em>does</em> happen, and it’s how we do a lot a interplanetary space travel), just not to the extent that we see here.</p>
+
+<h2 id="visualization">Visualization</h2>
+
+<p>There are a couple of interesting things to consider regarding the visual aspect of the program. I opted for a dark background with a <a href="https://colorcet.com">perceptually uniform colormap</a> to invoke a space-y feeling.</p>
+
+<p>The 3D simulation is presented from three angles: edge-on, face-on, and isometric, to provide maximum understanding of the relative positions and motions of the bodies. I’ve also included a plot of the <em>kinetic energy</em> of the bodies (whose colors match those of the bodies) to demonstrate some of the strange interactions described above.</p>
+
+<p>The sizes of the bodies are scaled to demonstrate their relative masses (especially obvious in the planetary systems and tiny cluster), though things aren’t perfectly proportional because in reality stars are <em>so</em> much more massive than planets that either</p>
+
+<ol>
+  <li>the star would fill up the whole screen or</li>
+  <li>the planets would be invisible.</li>
+</ol>
+
+<p>And yes, this assumes that all bodies have the same density (which is not true in reality).</p>
+
+<p>The sizes of the bodies are also designed to respond to situations where objects get ejected, displaying a sort of zoom-out effect as the bounds of the plots grow larger (another feature implemented by Brandon).</p>
 
 <h2 id="insights">Insights</h2>
 
-<p>Look at this cool thing</p>
+<p>Here is the first and most basic of the simulations: it’s just the Sun and the Earth! And because I haven’t programmed in any sort of friction or otherwise resistive forces, nothing is changing!</p>
+
+<div style="padding:33.44% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/666336304?h=e41f4961b6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SunEarth_2022-01-15-11-47-46"></iframe></div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<p>Read more about the <a href="https://en.wikipedia.org/wiki/N-body_problem">N-Body Problem</a> or <a href="https://en.wikipedia.org/wiki/N-body_simulation">N-Body Simulations</a>.</p>
 <div class="footnotes">
   <ol>
     <li id="fn:1">
