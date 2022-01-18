@@ -6,6 +6,8 @@ description: The story of an N-body simulation &mdash; a program that calculates
 featured_image: "/images/planetesimal-disk.png"
 ---
 
+[View on GitHub](https://github.com/collinsinclair/N-Body-Improved)
+
 ## Backstory
 
 Imagine a whole bunch of stuff (preferably coalesced into bodies like stars or planets) out there in space. Anywhere, anytime. Just, _imagine_. What are those things doing? Are they still? Spinning? Moving towards or away from one another? If only we could look at it for ourselves... But wait, **we can!** -- and this tool (or toy?) can help.
@@ -47,6 +49,6 @@ The sizes of the bodies are also designed to respond to situations where objects
 
 Here is the first and most basic of the simulations: it's just the Sun and the Earth! And because I haven't programmed in any sort of friction or otherwise resistive forces, nothing is changing!
 
-<div style="padding:33.44% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/666336304?h=e41f4961b6&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SunEarth_2022-01-15-11-47-46"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+Videos coming soon!
 
 Read more about the [N-Body Problem](https://en.wikipedia.org/wiki/N-body_problem) or [N-Body Simulations](https://en.wikipedia.org/wiki/N-body_simulation).
