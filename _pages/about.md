@@ -48,7 +48,7 @@ After finishing this bizarre and, dare I say, _unprecedented_ (I'm so sorry) sem
 
 ---
 
-
+This page is a work in progress -- please check back soon for more!
 
 [^2]: One notable project from this course was using singular value decomposition to reduce a 4 GB data set on the topography of the Mariana Trench to just 200 MB.
 
