@@ -62,8 +62,8 @@ All rehearsals and performances will be held at Parker Performing Arts School.
 |--------------------|-----------------------|--------|-------|
 | Director           | Ty Eatherton          |        |       |
 | Choreographer      | Kiera Sweeney         |        |       |
-| Site Manager       | Kayla Algrim[^1]      |        |       |
-| Executive Director | Laurilea Williams[^2] |        |       |
+| Venue Manager      | Kayla Algrim[^1]      |        |       |
+| Executive Director | Laurilea McDaniel[^2] |        |       |
 
 
 [^1]: Contact Kayla for building access.
