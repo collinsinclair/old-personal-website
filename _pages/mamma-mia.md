@@ -5,8 +5,17 @@ featured_image: images/santorini.jpg
 ---
 
 <script>
-let result = window.prompt("Password, please!");
-if (result !== "contra") { location.reload() }
+function passwordCorrect() {
+    let input;
+    input = prompt('Password, please!');
+    const password = 'contra';
+    if (input === null) {
+        window.location.href = '/'
+    } else return input === password;
+}
+
+while (!passwordCorrect()) {
+}
 </script>
 
 This webpage is still being updated! Please text/call Collin with questions.
@@ -42,19 +51,39 @@ All rehearsals and performances will be held at Parker Performing Arts School.
 
 ## Rehearsal Tracks
 
-| Number | Title                                     | File                                                                                                |
-|--------|-------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 1-2    | Overture / I Have A Dream Prologue        | <audio controls src="rehearsal-tracks/01-02 - Overture - I Have A Dream Prologue.mp3"></audio>      |
-| 3      | Honey Honey                               | <audio controls src="rehearsal-tracks/03 - Honey Honey.mp3"></audio>                                |
-| 4      | Money, Money, Money                       | <audio controls src="rehearsal-tracks/04 - Money, Money, Money.mp3"></audio>                        |
-| 4A     | Scene Change Into Thank You For The Music | <audio controls src="rehearsal-tracks/04A - Scene Change Into Thank You For The Music.mp3"></audio> |
-| 5      | Thank You For The Music                   | <audio controls src="rehearsal-tracks/05 - Thank You For The Music.mp3"></audio>                    |
-| 6      | Mamma Mia                                 | <audio controls src="rehearsal-tracks/06 - Mamma Mia.mp3"></audio>                                  |
-| 7      | Chiquitita                                | <audio controls src="rehearsal-tracks/07 - Chiquitita.mp3"></audio>                                 |
-| 8-8A   | Dancing Queen, Scene Change               | <audio controls src="rehearsal-tracks/08-08A - Dancing Queen - Scene Change.mp3"></audio>           |
-| 9      | Lay All Your Love On Me                   | <audio controls src="rehearsal-tracks/09 - Lay All Your Love On Me.mp3"></audio>                    |
-| 10     | Super Trouper                             | <audio controls src="rehearsal-tracks/10 - Super Trouper.mp3"></audio>                              |
-| 11     | Gimme, Gimme, Gimme                       | <audio controls src="rehearsal-tracks/11 - Gimme, Gimme, Gimme.mp3"></audio>                        |
+| Number  | Title                                      | File                                                                                                     |
+|---------|--------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| 1-2     | Overture / I Have A Dream Prologue         | <audio controls src="rehearsal-tracks/01-02 - Overture - I Have A Dream Prologue.mp3"></audio>           |
+| 3       | Honey Honey                                | <audio controls src="rehearsal-tracks/03 - Honey Honey.mp3"></audio>                                     |
+| 4       | Money, Money, Money                        | <audio controls src="rehearsal-tracks/04 - Money, Money, Money.mp3"></audio>                             |
+| 4A      | Scene Change Into Thank You For The Music  | <audio controls src="rehearsal-tracks/04A - Scene Change Into Thank You For The Music.mp3"></audio>      |
+| 5       | Thank You For The Music                    | <audio controls src="rehearsal-tracks/05 - Thank You For The Music.mp3"></audio>                         |
+| 6       | Mamma Mia                                  | <audio controls src="rehearsal-tracks/06 - Mamma Mia.mp3"></audio>                                       |
+| 7       | Chiquitita                                 | <audio controls src="rehearsal-tracks/07 - Chiquitita.mp3"></audio>                                      |
+| 8-8A    | Dancing Queen, Scene Change                | <audio controls src="rehearsal-tracks/08-08A - Dancing Queen - Scene Change.mp3"></audio>                |
+| 9       | Lay All Your Love On Me                    | <audio controls src="rehearsal-tracks/09 - Lay All Your Love On Me.mp3"></audio>                         |
+| 10      | Super Trouper                              | <audio controls src="rehearsal-tracks/10 - Super Trouper.mp3"></audio>                                   |
+| 11      | Gimme, Gimme, Gimme                        | <audio controls src="rehearsal-tracks/11 - Gimme, Gimme, Gimme.mp3"></audio>                             |
+| 12      | The Name of the Game                       | <audio controls src="rehearsal-tracks/12 - The Name Of The Game.mp3"></audio>                            |
+| 13      | Voulez Vous                                | <audio controls src="rehearsal-tracks/13 - Voulez Vous.mp3"></audio>                                     |
+| 14-14A  | Entracte / Under Attack                    | <audio controls src="rehearsal-tracks/14-14A - Entracte - Under Attack.mp3"></audio>                     |
+| 15-16   | One of Us / SOS                            | <audio controls src="rehearsal-tracks/15-16 - One Of Us - SOS.mp3"></audio>                              |
+| 17      | Does Your Mother Know?                     | <audio controls src="rehearsal-tracks/17 - Does Your Mother Know.mp3"></audio>                           |
+| 18      | Knowing Me, Knowing You                    | <audio controls src="rehearsal-tracks/18 - Knowing Me, Knowing You.mp3"></audio>                         |
+| 18A     | Playoff                                    | <audio controls src="rehearsal-tracks/18A - Playoff.mp3"></audio>                                        |
+| 19      | Our Last Summer                            | <audio controls src="rehearsal-tracks/19 - Our Last Summer.mp3"></audio>                                 |
+| 19A-20  | Intro / Slipping Through My Fingers        | <audio controls src="rehearsal-tracks/19A-20 - Intro - Slipping Through My Fingers.mp3"></audio>         |
+| 21      | The Winner Takes It All                    | <audio controls src="rehearsal-tracks/21 - The Winner Takes It All.mp3"></audio>                         |
+| 21A     | Scene Change                               | <audio controls src="rehearsal-tracks/21A - Scene Change.mp3"></audio>                                   |
+| 22      | Take a Change on Me                        | <audio controls src="rehearsal-tracks/22 - Take A Chance On Me.mp3"></audio>                             |
+| 22A     | Dancing Queen Hymn                         | <audio controls src="rehearsal-tracks/22A - Dancing Queen Hymn.mp3"></audio>                             |
+| 23-1    | I Do, I Do, I Do (Part 1)                  | <audio controls src="rehearsal-tracks/23-1 - I Do, I Do, I Do (Part 1).mp3"></audio>                     |
+| 23-2    | I Do, I Do, I Do (Part 2)                  | <audio controls src="rehearsal-tracks/23-2 - I Do, I Do, I Do (Part 2).mp3"></audio>                     |
+| 23-3-24 | I Do, I Do, I Do (Part 3) / I Have A Dream | <audio controls src="rehearsal-tracks/23-3-24 - I Do, I Do, I Do (Part 3) - I Have A Dream.mp3"></audio> |
+| 25      | Bows                                       | <audio controls src="rehearsal-tracks/25 - Bows.mp3"></audio>                                            |
+| 27      | Dancing Queen Bows                         | <audio controls src="rehearsal-tracks/27 - Dancing Queen Bows.mp3"></audio>                              |
+| 28      | Waterloo                                   | <audio controls src="rehearsal-tracks/28 - Waterloo.mp3"></audio>                                        |
+| 29      | Exit Music                                 | <audio controls src="rehearsal-tracks/29 - Exit Music.mp3"></audio>                                      |
 
 ## Other Contacts
 
@@ -64,7 +93,6 @@ All rehearsals and performances will be held at Parker Performing Arts School.
 | Choreographer      | Kiera Sweeney         |        |       |
 | Venue Manager      | Kayla Algrim[^1]      |        |       |
 | Executive Director | Laurilea McDaniel[^2] |        |       |
-
 
 [^1]: Contact Kayla for building access.
 [^2]: Contact Laurilea for paycheck/tax information.
