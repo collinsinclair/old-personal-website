@@ -87,12 +87,12 @@ All rehearsals and performances will be held at Parker Performing Arts School.
 
 ## Other Contacts
 
-| Role               | Player                | Number | Email |
-|--------------------|-----------------------|--------|-------|
-| Director           | Ty Eatherton          |        |       |
-| Choreographer      | Kiera Sweeney         |        |       |
-| Venue Manager      | Kayla Algrim[^1]      |        |       |
-| Executive Director | Laurilea McDaniel[^2] |        |       |
+| Role                | Player                | Number                           | Email                                                                               |
+|---------------------|-----------------------|----------------------------------|-------------------------------------------------------------------------------------|
+| Director, Producer  | Ty Eatherton          | [(303) 917-6707](tel:3039176707) | [tylerj.eatherton@gmail.com](mailto:tylerj.eatherton.com)                           |
+| Choreographer       | Kiera Sweeney         | [(720) 256-5232](tel:7202565232) | [kesweeney97@gmail.com](mailto:kesweeney97@gmail.com)                               |
+| Venue Manager       | Kayla Algrim[^1]      | [(720) 717-4530](tel:7207174530) | [kalgrim@parkerperformingarts.org](mailto:kalgrim@parkerperformingarts.org)         |
+| Executive Director  | Laurilea McDaniel[^2] | [(303) 884-5301](tel:3038845301) | [frontrangetheatrecompanyed@gmail.com](mailto:frontrangetheatrecompanyed@gmail.com) |
 
 [^1]: Contact Kayla for building access.
 [^2]: Contact Laurilea for paycheck/tax information.
