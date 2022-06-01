@@ -31,23 +31,22 @@ All rehearsals and performances will be held at Parker Performing Arts School.
 </div>
 ## Callboard
 
-| Date           | Call Time     | Est. End Time | Type                    | Notes                                                                       |
-|----------------|---------------|---------------|-------------------------|-----------------------------------------------------------------------------|
-| TBD            | TBD           | TBD           | Band-only Rehearsal     | Pending band availability. Looking into ordering pizza or something for us! |
-| TBD            | TBD           | TBD           | Band-only Rehearsal     | Pending band availability. Looking into ordering pizza or something for us! |
-| TBD            | TBD           | TBD           | Band-only Rehearsal     | Pending band availability. Looking into ordering pizza or something for us! |
-| Wed,&nbsp;6/8  | 9:00&nbsp;AM  | 5:00&nbsp;PM  | Rehearsal               | Lunch break around noon                                                     |
-| Thu,&nbsp;6/9  | 9:00&nbsp;AM  | 5:00&nbsp;PM  | Rehearsal               | Lunch break around noon                                                     |
-| Fri,&nbsp;6/10 | 9:00&nbsp;AM  | 10:00&nbsp;PM | Rehearsal / Performance | Bring dress blacks                                                          |
-| Sat,&nbsp;6/11 | 12:00&nbsp;PM | 10:00&nbsp;PM | Performance (x2)        | Prepare to strike the pit!                                                  |
+| Date           | Call Time     | Est. End Time | Type                          | Notes                                                                       |
+|----------------|---------------|---------------|-------------------------------|-----------------------------------------------------------------------------|
+| Thu,&nbsp;6/9  | 9:00&nbsp;AM  | 5:00&nbsp;PM  | Rehearsal (morning/afternoon) | Lunch break around noon                                                     |
+| Fri,&nbsp;6/10 | 9:00&nbsp;AM  | 10:00&nbsp;PM | Rehearsal / Performance       | Bring dress blacks                                                          |
+| Sat,&nbsp;6/11 | 12:00&nbsp;PM | 10:00&nbsp;PM | Performance (x2)              | Prepare to strike the pit!                                                  |
 
 ## Player Info
 
-| Instrument      | Player          | Number                           | Email                                                               |
-|-----------------|-----------------|----------------------------------|---------------------------------------------------------------------|
-| Piano/Conductor | Collin Sinclair | [(720) 371-5712](tel:7203715712) | [collinsinclair88@gmail.com](mailto:collinsinclair88@gmail.com)     |
-| Drums           | Brian Jaffe     | [(303) 507-6707](tel:3035076707) | [highfivepercussion@gmail.com](mailto:highfivepercussion@gmail.com) |
-| Keyboard 2      | Kevin Howery    | [(303) 961-5522](tel:3039615522) | [kevinhowery22@gmail.com](mailto:kevinhowery22@gmail.com)           |
+| Instrument      | Player          | Email                                                               |
+|-----------------|-----------------|---------------------------------------------------------------------|
+| Piano/Conductor | Collin Sinclair | [collinsinclair88@gmail.com](mailto:collinsinclair88@gmail.com)     |
+| Keyboard 2/4    | Kevin Howery    | [kevinhowery22@gmail.com](mailto:kevinhowery22@gmail.com)           |
+| Keyboard 3      | Matthew Cox     | [mcoxvla@gmail.com](mailto:mcoxvla@gmail.com)                       |
+| Guitar 1/2      | Fred Brown      | [downtown2112@gmail.com](mailto:downdown2112@gmail.com)             |
+| Bass            | David James     | [david@dmj.us](mailto:david@dmj.us)                                 |
+| Drums           | Brian Jaffee    | [highfivepercussion@gmail.com](mailto:highfivepercussion@gmail.com) |
 
 ## Rehearsal Tracks
 
