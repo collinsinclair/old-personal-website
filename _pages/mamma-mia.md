@@ -44,7 +44,7 @@ All rehearsals and performances will be held at Parker Performing Arts School.
 | Piano/Conductor | Collin Sinclair | [collinsinclair88@gmail.com](mailto:collinsinclair88@gmail.com)     |
 | Keyboard 2/4    | Kevin Howery    | [kevinhowery22@gmail.com](mailto:kevinhowery22@gmail.com)           |
 | Keyboard 3      | Matthew Cox     | [mcoxvla@gmail.com](mailto:mcoxvla@gmail.com)                       |
-| Guitar 1/2      | Fred Brown      | [downtown2112@gmail.com](mailto:downdown2112@gmail.com)             |
+| Guitar          | Fred Brown      | [downtown2112@gmail.com](mailto:downdown2112@gmail.com)             |
 | Bass            | David James     | [david@dmj.us](mailto:david@dmj.us)                                 |
 | Drums           | Brian Jaffee    | [highfivepercussion@gmail.com](mailto:highfivepercussion@gmail.com) |
 
